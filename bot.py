@@ -16,7 +16,6 @@ msg = "Hello,this messege is from pybot! Don't reply"
 for each in phone_number:
     hour = value.hour
     minute = value.minute
-    wt.sendwhatmsg(each, msg, hour, minute + counter
-                   er, wait_time=30)
+    wt.sendwhatmsg(each, msg, hour, minute + counter, wait_time=30)
     counter += 1
-time.sleep(20)
+    time.sleep(20)
