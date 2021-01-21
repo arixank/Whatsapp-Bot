@@ -10,7 +10,7 @@ phone_number = [f"+91{number.Contact}" for (index, number) in data.iterrows()]
 value = dt.datetime.now()
 counter = 2
 
-msg = "Hello,this messege is from pybot! Don't reply"
+msg = "Hello,this message is from pybot! Don't reply"
 
 # ? Sending Message
 for each in phone_number:
